@@ -1,0 +1,19 @@
+FROM ubuntu:latest
+
+ 
+
+RUN apt-get update && \
+    apt-get install -y wget
+
+
+WORKDIR /app
+
+ 
+
+COPY assignment_4.sh /app/assignment_4.sh
+
+
+RUN chmod +x assignment_4.sh
+
+
+RUN ./assignment_4.sh
