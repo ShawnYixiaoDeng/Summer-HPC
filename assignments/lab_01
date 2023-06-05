@@ -1,0 +1,17 @@
+1. Spack installation in $Work on M3 is done. Mainly used the code provided during class. When running on interactive session, it can be seen that version 0.21.0.dev0 (853bf95bd29291f02972859eff085466996c20d6) is in place.
+
+2. GCC is installed, when running on interactive session, mainly used the code provided in class. it can be seen that version gcc (Ubuntu 11.2.0-19ubuntu1) 11.2.0 is installed
+
+3. Python, Matplotlib and Pandas installed successfully, using the code below:
+
+spack:
+  specs:
+    - python
+    - matplotlib
+    - pandas
+
+
+spack env create myenv install.yaml
+
+
+spack env activate myenv
