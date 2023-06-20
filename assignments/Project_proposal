@@ -1,0 +1,27 @@
+
+1. Data Source:
+
+https://www.kaggle.com/datasets/validmodel/bigbasket-customer-analytics?resource=download
+
+Using dataset "bigBasket"
+
+
+2. analysis workflow
+
+  1. make a visualization on "Description" to see which item is mostly purchased
+  2. find out what is the distribution on number of items purchased by members, and for each one of them (or any selected member)
+  3. find out what is the distribution on when people place their orders
+  4. find out what is the most commonly purchased item by each member (or any selected member)
+
+
+3. Tools for workflow
+
+python3 environment with numpy, pandas and mayplotlib installed
+
+4. output
+
+  1. a visuallization on "Description"
+  2. average and standard deviation of number of items purchased by members 
+  3. a script that allows user input to present info described in 2
+  4. average and standard deviation of when people place their orders
+  5. a script that allows user input a member id to present number of each items purchased by this member.
